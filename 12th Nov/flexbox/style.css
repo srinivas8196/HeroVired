@@ -1,0 +1,28 @@
+       .container{
+            display: flex;
+            width: 100%;
+            min-height: 400px;
+            background-color: rgb(165, 113, 49);
+            /* flex-direction: row; */
+            /* flex-wrap: wrap; */
+            flex-flow: wrap;
+            /* justify-content: space-around; */
+            align-items:center;
+        }
+
+        .item{
+
+            font-size: medium;
+            color: black;
+            border: 5px dashed orange;
+            margin: 30px;
+            background-color: brown;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+        }
+
+        .item1{
+
+            order: 4;;
+        }
