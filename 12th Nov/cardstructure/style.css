@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    width:fit-content;
+    min-height: 400px;
+    background-color: rgb(165, 113, 49);
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    align-content: center;
+    align-items:flex-start
+}
+
+.card{
+    padding: 30px;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border: 2px solid black;
+    color: azure;
+    align-content:flex-end;
+}
